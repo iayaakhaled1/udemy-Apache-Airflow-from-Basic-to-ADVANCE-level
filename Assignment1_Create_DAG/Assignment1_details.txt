@@ -1,1 +1,0 @@
-Build a DAG that will create a new directory (let say 'test_dir') inside the dags folder, and crosscheck the results at task level.
