@@ -1,0 +1,32 @@
+Ref --> https://medium.com/@karim.faiz/configuring-a-snowflake-connection-in-apache-airflow-9e3a8931dabb
+
+
+- Configuring a Snowflake connection in Apache Airflow involves setting up a connection in the Airflow UI or defining it in the Airflow configuration files. 
+
+### Here’s a step-by-step guide on how to configure a Snowflake connection in Apache Airflow:
+
+#### Method 1: Using Airflow UI
+- Access the Airflow Web UI: Open your web browser and navigate to the Airflow Web UI. The default URL is usually http://localhost:8080.
+- Navigate to the “Admin” section:
+- In the top menu, click on “Admin” to access the administrative features. Click on “Connections”:
+- In the Admin section, find and click on the “Connections” link.
+
+#### Add a new connection:
+
+- Click on the “+ Add a new record” button to create a new connection.
+- Fill in the connection details:
+Conn Id: Enter a unique identifier for your connection (e.g., my_snowflake_conn).
+Conn Type: Select Snowflake.
+Account: Enter the Snowflake account name.
+Login: Enter the username for the Snowflake database.
+Password: Enter the password for the specified username.
+Warehouse: (Optional) Specify the default warehouse.
+Database: Enter the default database.
+Schema: (Optional) Specify the default schema.
+Extra: (Optional) Additional connection parameters. You may leave this blank if not needed.
+Region: Enter the snowflake region.
+Role: Enter the snowflake role.
+Save the connection:
+
+Click on the “Save” button to save the new Snowflake connection.
+
